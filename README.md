@@ -11,14 +11,7 @@ Java 8 streams, filter, map and lambda expressions have been used to process the
 Java 8 has defined a separate Enum for handling days of the week named – DayOfWeek (java.time.DayOfWeek).
 It is recommended to use the Enum constants in code rather than their equivalent int values to enhance code readability and clarity.
 
-#The problem
-Sample data represents the instructions sent by various clients to X company to execute in the international
-market.
-Entity Buy/Sell AgreedFx Currency InstructionDate SettlementDate 	Units 	Price per unit
-foo 	B 		0.50 		SGP 	01 Jan 2016 	02 Jan 2016 	200 	100.25
-bar 	S 		0.22 		AED 	05 Jan 2016 	07 Jan 2016 	450 	150.5
-
-Create a report that shows
+### Create a report that shows
  Amount in USD settled incoming everyday
  Amount in USD settled outgoing everyday
  Ranking of entities based on incoming and outgoing amount. Eg: If entity foo instructs the highest
