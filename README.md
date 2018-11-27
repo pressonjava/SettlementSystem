@@ -78,28 +78,3 @@ Test class ForexHandlerImplTest runs a junit test with below mentioned sample in
 
 Java 8 streams, filter, map and lambda expressions have been used to process the instructions and generate reports for sorting and aggreagting.
 
-
-
-Date Handler to return the holidays for a normal currency
-holidays for currency mid east
-
-report 3
----------
-
-Entity Incomming/Outgoing Requested_SettlementDat ActualSettlementDate USD_SETTLED Ranking
-foo    B (Incommig)		  02 Jan 2016			  04 Jan 2016		   500			1
-bar    B (Incommig)		  04 Jan 2016			  04 Jan 2016		   400			2
-bar    s (outgoing)		  04 Jan 2016			  04 Jan 2016		   600			1
-bar    s (outgoing)		  04 Jan 2016			  04 Jan 2016		   500			2
-
-foo    B (Incommig)		  04 Jan 2016			  05 Jan 2016		   600			1
-bar    B (Incommig)		  04 Jan 2016			  05 Jan 2016		   400			2
-bar    s (outgoing)		  04 Jan 2016			  05 Jan 2016		   800			1
-bar    s (outgoing)		  04 Jan 2016			  05 Jan 2016		   700			2
-
-
-Reoprt 1 & 2
-------------
-Total USD Incoming   	USD Outgoing 	Setlement date
-2100        900						1100			04 Jan 2016
-2500        1000					1500			05 Jan 2016
