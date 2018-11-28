@@ -30,7 +30,7 @@ public class DateHandler {
         return AEDWeekendDays;
     }
 
-    //Place to hold mid east countries
+    //Place to hold mid east currencies
     public static List<String> getMidEastCurrenciess() {
         List<String> midEastCurrencies = new ArrayList<>();
         midEastCurrencies.add("AED");
